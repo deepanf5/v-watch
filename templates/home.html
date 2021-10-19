@@ -1,18 +1,29 @@
 {% extends 'base.html' %}
 
 
+
 {% block content %}
+
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
 
 
 <div class="container">
 
-    <div class="container">
-
-        <div class="text">
-            <h2><a  style="text-decoration:none;" href="{% url 'movie:index' %}">Movies</a></h2>
-        </div>
+    <div class="hero">
+    <div class="herotext">
+        <h1 class="hero-text">watch your's favorite movie <br> on V-watch all day! </h1>
+ <a href="{% url 'movie:index' %}"><button type="button" class="btn btn-outline-secondary btn-all">Watch Now &#10230;</button></a>
+    </div>
+    <div class="heroimg">
+        <img class="hero-img" src="{%static 'images/watching-a-movie.png' %}" alt="">
     </div>
 
 </div>
+
+</div>
+
+
 
 {% endblock %}

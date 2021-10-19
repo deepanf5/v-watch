@@ -1,0 +1,65 @@
+
+.hero {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    text-align:center;
+}
+.hero-text {
+    align-item:center;
+    color:#4b6584;
+    margin-top:10rem;
+    line-height: 1.6;
+
+}
+.hero-img {
+    margin-top:5rem;
+    width:100%;
+}
+
+.btn-all {
+margin-top:2rem;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px)
+{
+.hero {
+
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.hero-text{
+    margin-top:15rem;
+    text-align:left;
+
+
+}
+.hero-img {
+
+width:100%;
+
+}
+.btn {
+margin-top:4rem;
+float:left;
+
+
+
+
+}
+
+
+
+}
