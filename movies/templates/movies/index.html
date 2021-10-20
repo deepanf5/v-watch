@@ -1,15 +1,18 @@
 {% extends 'base.html'%}
 
 
+
 {% block content %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
 
     <div class="container">
-        <h1>Movies List</h1>
+        <h1 class="movielist">Movies List</h1>
 
         <div class="row">
             {% for movie in movies %}
             <div class="col">
-                <div class="card" style="width: 18rem; height: 24rem; margin-top:3rem;">
+                <div class="card" style="width: 18rem; height: 24rem;margin-top:3rem;">
                     <img src="{{movie.images_url}}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">{{ movie.title}}</h5>
