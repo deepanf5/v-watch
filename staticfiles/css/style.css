@@ -21,7 +21,13 @@
 margin-top:2rem;
 
 
+}
+.card {
 
+    margin-left:2.5rem;
+}
+.movielist {
+padding-top:3rem;
 }
 
 
@@ -51,14 +57,18 @@ margin-top:2rem;
 width:100%;
 
 }
-.btn {
+.btn-all {
 margin-top:4rem;
 float:left;
 
 
-
-
 }
+.card {
+
+    margin-left:0;
+}
+
+
 
 
 
