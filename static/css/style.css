@@ -8,6 +8,7 @@
 .hero-text {
     align-item:center;
     color:#4b6584;
+     text-transform: capitalize;
     margin-top:10rem;
     line-height: 1.6;
 
